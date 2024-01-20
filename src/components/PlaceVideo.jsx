@@ -1,5 +1,5 @@
 import React from "react"
-import video from "../assets/video.mp4"
+// import video from "../assets/video.mp4"
 
 const PlaceVideo = () => {
     
@@ -16,7 +16,7 @@ const PlaceVideo = () => {
         onTouchStart={() => this.pauseVideo(index)}
         muted={true}
       >
-        <source src={video} type="video/mp4" />
+        <source src="https://www.youtube.com/watch?v=8g9ccCkT-u0&ab_channel=LalitChoudharyFilms" type="video/mp4" />
       </video>
     </div>
   )
