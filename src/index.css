@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        .padding-b {
+            @apply pb-96
+        }
+
+        .title {
+            @apply px-3 pt-16 pb-24 text-5xl font-semibold leading-snug text-center text-violet-600
+        }
+
+        input {
+            @apply px-3 py-2 my-2 text-lg border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-600 focus:border-transparent
+        }
+
+        .btn {
+            @apply px-20 py-3 text-xl font-semibold text-white rounded-full bg-violet-600
+        }
+
+        .btn:hover {
+            @apply bg-violet-500  transition duration-300
+        } 
+
+        @apply scroll-smooth
+
+    }
+}
